@@ -1,0 +1,92 @@
+body
+{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    height: 25rem;
+    width: 18rem;
+    background: linear-gradient(135deg, #00feba, #5b54a8);
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 4px 3rem black;
+
+}
+button{
+    border-radius: 3rem;
+    border: none;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.9rem;
+    color: grey;
+    width: 12rem;
+}
+.img1
+{
+    height: 1.5rem;
+}
+.sun
+{
+    display: flex;
+    justify-content: center;
+}
+.img2
+{
+    height: 6rem;
+}
+.temp
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+}
+.city 
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+}
+.humid
+{
+    height: 3rem;
+
+}
+.other
+{
+    display: flex;
+    gap: 3.5rem;
+}
+.o1
+{
+    display:flex;
+    color: white; 
+}
+.o2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    font-size: small;
+    color: white;
+}
+.parent
+{
+    display: flex;
+    flex-direction:column;
+}
