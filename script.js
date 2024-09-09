@@ -7,7 +7,7 @@ async function checkWeather(cityname) {
   let data = await response.json();
   console.log(data);
   
-       document.querySelector(".temp").innerHTML=data.main.temp+"°C"; 
+       document.querySelector(".temp").innerHTML=Math.round(data.main.temp-273.15)+"°C"; 
        document.querySelector(".city").innerHTML=data.name; 
        document.querySelector("p").innerHTML=data.main.humidity+"%"       ; 
        document.querySelector("#wind-speed").innerHTML=data.wind.speed+"km/hr"; 
